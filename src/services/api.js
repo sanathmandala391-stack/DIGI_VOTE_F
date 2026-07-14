@@ -1,6 +1,9 @@
 import axios from 'axios';
 
-const BASE_URL = 'https://digi-vote-b.onrender.com';//updated Backend
+// const BASE_URL = 'https://digi-vote-b.onrender.com';//updated Backend
+
+const BASE_URL = 'http://localhost:8080';
+
 
 const api = axios.create({ baseURL: BASE_URL });
 
